@@ -26,6 +26,10 @@ public class TestingController {
     public String getPhone(){
         return " 2698410" ;
     }
+    @GetMapping("/master")
+    public String getMaster(){
+        return " master" ;
+    }
 
 
 
